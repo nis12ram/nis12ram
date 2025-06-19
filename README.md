@@ -16,7 +16,10 @@ I’m currently a student immersed in the world of Natural Language Processing a
 I’m passionate about understanding how to create efficient, compact LLMs tailored for specific domains and Indic languages. My goal is to empower regional and specialized applications through AI.
 
 🚀 **Projects**
-- **Inshorts-experiments**: A compact summarization pipeline designed for Inshorts-style news. This project explores how to prune a capable teacher model and regain its performance using distillation (behavior cloning) and supervised fine-tuning (SFT). Starting with a base model fine-tuned on Inshorts (Qwen2.5-0.5B-Instruct), applied hybrid pruning (width + depth) to reduce the model size significantly—down to 11 layers and ~277M parameters. 
+<details>
+<summary><strong>Inshorts-experiments</strong></summary>
+
+ A compact summarization pipeline designed for Inshorts-style news. This project explores how to prune a capable teacher model and regain its performance using distillation (behavior cloning) and supervised fine-tuning (SFT). Starting with a base model fine-tuned on Inshorts (Qwen2.5-0.5B-Instruct), applied hybrid pruning (width + depth) to reduce the model size significantly—down to 11 layers and ~277M parameters. 
 
   Despite a steep drop in raw performance (LLM-based eval score ~1.0/5), recovered capabilities step-by-step:
   
@@ -32,6 +35,8 @@ I’m passionate about understanding how to create efficient, compact LLMs tailo
   [qwen2.5-0.5B-Instruct-pruned-Inshort](https://huggingface.co/nis12ram/qwen2.5-0.5B-Instruct-pruned-Inshort)  
   [qwen2.5-0.5B-Instruct-pruned-distill-Inshort](https://huggingface.co/nis12ram/qwen2.5-0.5B-Instruct-pruned-distill-Inshort)  
   [qwen2.5-0.5B-Instruct-pruned-distill-sft-Inshort](https://huggingface.co/nis12ram/qwen2.5-0.5B-Instruct-pruned-distill-sft-Inshort)
+
+</details>
 
 ---
 
