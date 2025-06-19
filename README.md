@@ -16,9 +16,9 @@ I’m currently a student immersed in the world of Natural Language Processing a
 I’m passionate about understanding how to create efficient, compact LLMs tailored for specific domains and Indic languages. My goal is to empower regional and specialized applications through AI.
 
 🚀 **Projects**
-- **Inshorts-experiments**: A compact summarization pipeline designed for Inshorts-style news. This project explores how to prune a capable teacher model and regain its performance using distillation (behavior cloning) and supervised fine-tuning (SFT). Starting with a base m hybrid pruning (width + depth) to reduce the model size significantly—down to 11 layers and ~277M parameters. 
+- **Inshorts-experiments**: A compact summarization pipeline designed for Inshorts-style news. This project explores how to prune a capable teacher model and regain its performance using distillation (behavior cloning) and supervised fine-tuning (SFT). Starting with a base model fine-tuned on Inshorts (Qwen2.5-0.5B-Instruct), applied hybrid pruning (width + depth) to reduce the model size significantly—down to 11 layers and ~277M parameters. 
 
-  Despite a steep drop in raw performance (LLM-based eval score ~1.0/5), recoverodel fine-tuned on Inshorts (Qwen2.5-0.5B-Instruct), applieded capabilities step-by-step:
+  Despite a steep drop in raw performance (LLM-based eval score ~1.0/5), recovered capabilities step-by-step:
   
   - 📉 **Pruned model** — minimal summarization ability
   - 🔁 **Distilled model** — recovers up to ~3.15/5 eval score using behavior cloning
