@@ -35,7 +35,8 @@ I’m passionate about understanding how to create efficient, compact LLMs tailo
   [qwen2.5-0.5B-Instruct-pruned-Inshort](https://huggingface.co/nis12ram/qwen2.5-0.5B-Instruct-pruned-Inshort)  
   [qwen2.5-0.5B-Instruct-pruned-distill-Inshort](https://huggingface.co/nis12ram/qwen2.5-0.5B-Instruct-pruned-distill-Inshort)  
   [qwen2.5-0.5B-Instruct-pruned-distill-sft-Inshort](https://huggingface.co/nis12ram/qwen2.5-0.5B-Instruct-pruned-distill-sft-Inshort)
-  [dataset devloped during project](https://huggingface.co/datasets/nis12ram/Inshorts-ds) 
+  
+  [A dataset devloped during project](https://huggingface.co/datasets/nis12ram/Inshorts-ds) 
 
 </details>
 
