@@ -24,7 +24,7 @@ I’m passionate about understanding how to create efficient, compact LLMs tailo
   - 🔁 **Distilled model** — recovers up to ~3.15/5 eval score using behavior cloning
   - 📈 **Distilled + SFT model** — reaches ~3.80/5, outperforming the original teacher on the test set
   
-  This project demonstrates that extreme model compression paired with smart recovery strategies can still yield high-quality, domain-specific summarization.
+  This project demonstrates that extreme model compression paired with smart recovery strategies can still yield decent, domain-specific summarization.
 
   🔗 **Links**:  
   [GitHub Repository](https://github.com/nis12ram/Inshorts-experiments)  
