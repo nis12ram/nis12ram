@@ -22,6 +22,7 @@ I’m currently a student focused on becoming a Data Engineer, with hands-on exp
 
 
 🌱 **What I'm Focusing**
+
 I’m learning Azure Data Engineering concepts — thinking about Azure Data Factory, Data Lake, Synapse & Databricks for building end-to-end pipelines.
 
 🚀 **Projects**
