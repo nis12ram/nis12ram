@@ -37,7 +37,6 @@ https://github.com/nis12ram/UnifiedSalesReportingPipeline
 </details>
 
 <details>
-<details>
 <summary><strong>agri-price-arbitrage-adf-pipeline</strong></summary>
 
  
