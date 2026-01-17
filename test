@@ -20,11 +20,11 @@ Catalyst Optimizer is Spark SQL's query optimization engine, responsible for con
 
 
 
-Catalyst figures out efficient execution plan, by working  in 4 phases:
+Catalyst works in multiple steps:
 
-Phase 1 - Parsing
+Step 1 - Parsing
 
-Goal: At these phase, catalyst tries to understand the overall structure of the query (SQL or DataFrame API), operations used & the order in which they come in query
+Goal: At these step, catalyst tries to understand the overall structure of the query (SQL or DataFrame API), operations used & the order in which they come in query
 
 Details: 
 
@@ -34,9 +34,9 @@ Details:
 
 
 
-Phase 2 - Analysis
+Step  2 - Analysis
 
-Goal: At these phase, catalyst tries to resolve & validate the  Unresolved Logical Plan.
+Goal: At these Step, catalyst tries to resolve & validate the  Unresolved Logical Plan.
 
 Details: 
 
@@ -52,13 +52,13 @@ Details:
 
 
 
-Phase 3 - Optimization
+Step 3 - Optimization
 
-Goal: At these phase, catalyst tries to optimize the Resolved Logical plan to improve performance.
+Goal: At these step, catalyst tries to optimize the Resolved Logical plan to improve performance.
 
 Details:
 
-* Most optimizations applied here are rule-based optimizations.
+* Most optimizations applied here are Rule-based optimizations (RBO).
 
 * Rule-based optimizations are fixed set of predefined rules to improve the  query plan, without considering factors like data size, statistics and cost
 
@@ -72,12 +72,30 @@ Details:
 
 
 
-Phase 4 - Physical Planning
+Step 4 - Physical Planning
 
-Goal: At these stage, catalyst use Optimized Logical Plan to generate one or more Physical/Execution Plans and uses cost-based optimization (CBO) to pick the one with lowest estimated cost.
+Goal: At these step, catalyst use Optimized Logical Plan to generate one or more Physical/Execution Plans and uses cost-based optimization (CBO) to pick the one with lowest estimated cost.
 
-At these phase, catalyst tries to generate best Physical Plan from Optimized Logical Plan.
+At these phase, catalyst tries to generate best Physical/Execution Plan for Optimized Logical Plan.
 
 Details:
 
-* Catalyst optimizer takes Optimized Logical Plan, and generate one or more physical plans, using physical operators.
+* Catalyst optimizer takes Optimized Logical Plan and generate Physical  Plan by mapping each logical operation in Optimized Logical Plan to a concrete physical operator.
+
+* Catalyst can generate multiple physical plans, because for some logical operations there are multiple physical operator choices like a logical join can become:
+
+BroadcastHashJoin
+
+ShuffleHashJoin
+
+SortMergeJoin
+
+* Catalyst uses cost model to predict cost of each physical plan, which estimates the execution cost (e.g., CPU, I/O, and network resources) of each candidate physical plan based on available statistics, and then Cost-Based Optimization (CBO) uses those cost estimates to select the lowest-cost physical plan for execution.
+
+
+
+Step 5 -Code Generation
+
+Goal: At this step, Spark takes the selected physical plan and turns it into executable code that runs efficiently on the cluster.
+
+Details; Spark uses Whole-Stage Code Generation from the Tungsten execution engine to convert the physical operators into optimized Java bytecode.
