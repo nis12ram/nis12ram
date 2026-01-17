@@ -2,87 +2,103 @@ catalyst optimizer
 
 
 
-"When we plan better, we execute better" - these holds true for our day-to-day jobs, & even for our spark jobs.
+“When we plan better, we execute better.”
+
+ This holds true not only for our day-to-day work, but also for our Spark jobs.
 
 
 
-To execute our spark job as fast as possible while consuming minimal cluster resources, spark does a lot of planning before actual execution begins.
+To execute a Spark job as fast as possible while consuming minimal cluster resources, Spark does a lot of planning before actual execution begins.
 
 
 
-And the one that does these heavy planning work in spark - Catalyst Optimizer
+And the component responsible for this heavy planning in Spark is the Catalyst Optimizer.
 
 
 
 Definition
 
-Catalyst Optimizer is Spark SQL's query optimization engine, responsible for converting high-level DataFrame or SQL queries into an efficient execution plan, which spark uses to run actual computation.
+The Catalyst Optimizer is Spark SQL’s query optimization engine. It converts high-level DataFrame or SQL queries into an efficient execution plan, which Spark then uses to perform the actual computation.
 
 
 
-Catalyst works in multiple steps:
+How Catalyst Works (Step by Step)
+
+
 
 Step 1 - Parsing
 
-Goal: At these step, catalyst tries to understand the overall structure of the query (SQL or DataFrame API), operations used & the order in which they come in query
+Goal:
+
+ At this step, Catalyst tries to understand the overall structure of the query (SQL or DataFrame API), the operations used, and the order in which they appear.
 
 Details: 
 
-* Catalyst Optimizer parse the input query and creates an initial plan named as Unresolved Logical Plan,
+* Catalyst parses the input query and creates an initial plan called the Unresolved Logical Plan.
 
-* In this plan, the actual data source paths, table names, column names, and functions are represented by unresolved objects such as UnresolvedDataSource for data source paths, UnresolvedRelation for table names, and similarly for others.
+* In this plan, data source paths, table names, column names, and functions are represented as unresolved objects, such as:
 
+UnresolvedDataSource for data source paths
 
+UnresolvedRelation for table names
 
-Step  2 - Analysis
-
-Goal: At these Step, catalyst tries to resolve & validate the  Unresolved Logical Plan.
-
-Details: 
-
-* Catalyst Optimizer uses the catalog to resolve & validate the Unresolved Logical Plan.
-
-* Catalog is a metadata manager, that holds registered details like data source paths, table name & schemas (column names and types),
-
-* Catalyst uses Catalog to resolve the unresolved objects and validate the expressions and comparisons.
-
-* After the success of resolve & validate, catalyst generates Resolved Logical Plan where all unresolved objects are replaced with their actual resolved values
-
-* And on failure, catalyst throws an exception named as "AnalysisException".
+ such as UnresolvedDataSource for data source paths, UnresolvedRelation for table names, and similarly for others.
 
 
 
-Step 3 - Optimization
+Step 2 – Analysis
 
-Goal: At these step, catalyst tries to optimize the Resolved Logical plan to improve performance.
+Goal:
+
+ At this step, Catalyst resolves and validates the Unresolved Logical Plan.
 
 Details:
 
-* Most optimizations applied here are Rule-based optimizations (RBO).
+* Catalyst uses the Catalog to resolve and validate the plan.
 
-* Rule-based optimizations are fixed set of predefined rules to improve the  query plan, without considering factors like data size, statistics and cost
+* The Catalog is a metadata manager that stores registered details such as data source paths, table names, and schemas (column names and data types).
 
-* Some are 
+* Catalyst replaces all unresolved objects using information from the Catalog and validates expressions and comparisons.
 
-1. Predicate Pushdown: Moving filter operation closer to data source as possible, so that spark reads and process only relevant data not all data
+* After successful resolution and validation, Catalyst generates a Resolved Logical Plan, where all unresolved objects are replaced with actual values.
 
-2, Column Pruning: Selecting only the columns that are required by query to minimize data movement.
+* If resolution fails, Catalyst throws an exception called AnalysisException.
 
-* By applying optimizations on Resolved Logical plan, catalyst generates Optimized Logical Plan.
+
+
+Step 3 – Optimization
+
+Goal:
+
+ At this step, Catalyst optimizes the Resolved Logical Plan to improve performance.
+
+Details:
+
+* Most optimizations applied here are Rule-Based Optimizations (RBO).
+
+* These are a fixed set of predefined rules that improve the query plan without considering factors like data size, statistics, or cost.
+
+* Some common optimizations include:
+
+1. Predicate Pushdown – Moving filter operations as close to the data source as possible so Spark reads and processes only relevant data.
+
+2, Column Pruning – Selecting only the required columns to reduce data movement.
+
+* After applying these rules, Catalyst produces the Optimized Logical Plan.
 
 
 
 Step 4 - Physical Planning
 
-Goal: At these step, catalyst use Optimized Logical Plan to generate one or more Physical/Execution Plans and uses cost-based optimization (CBO) to pick the one with lowest estimated cost.
-
-At these phase, catalyst tries to generate best Physical/Execution Plan for Optimized Logical Plan.
+Goal: At these phase, catalyst generate best Physical Plan for Optimized Logical Plan.
 
 Details:
 
-* Catalyst optimizer takes Optimized Logical Plan and generate Physical  Plan by mapping each logical operation in Optimized Logical Plan to a concrete physical operator.
+* Catalyst maps each logical operation in Optimized Logical Plan to a concrete physical operator.
 
-* Catalyst can generate multiple physical plans, because for some logical operations there are multiple physical operator choices like a logical join can become:
+* Multiple physical plans may be generated because a single logical operation can have different physical implementations.
+
+For example, a logical join can become:
 
 BroadcastHashJoin
 
@@ -94,4 +110,6 @@ SortMergeJoin
 
 
 
-Finally, Catalyst generates Java bytecode for the lowest-cost physical plan, which is executed by Spark's execution engine.
+Final Outcome
+
+Finally, Catalyst generates Java bytecode for the selected physical plan, which is executed by Spark’s execution engine.
