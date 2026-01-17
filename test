@@ -94,8 +94,4 @@ SortMergeJoin
 
 
 
-Step 5 -Code Generation
-
-Goal: At this step, Spark takes the selected physical plan and turns it into executable code that runs efficiently on the cluster.
-
-Details; Spark uses Whole-Stage Code Generation from the Tungsten execution engine to convert the physical operators into optimized Java bytecode.
+Finally, Catalyst generates Java bytecode for the lowest-cost physical plan, which is executed by Spark's execution engine.
