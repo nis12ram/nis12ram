@@ -1,0 +1,83 @@
+catalyst optimizer
+
+
+
+"When we plan better, we execute better" - these holds true for our day-to-day jobs, & even for our spark jobs.
+
+
+
+To execute our spark job as fast as possible while consuming minimal cluster resources, spark does a lot of planning before actual execution begins.
+
+
+
+And the one that does these heavy planning work in spark - Catalyst Optimizer
+
+
+
+Definition
+
+Catalyst Optimizer is Spark SQL's query optimization engine, responsible for converting high-level DataFrame or SQL queries into an efficient execution plan, which spark uses to run actual computation.
+
+
+
+Catalyst figures out efficient execution plan, by working  in 4 phases:
+
+Phase 1 - Parsing
+
+Goal: At these phase, catalyst tries to understand the overall structure of the query (SQL or DataFrame API), operations used & the order in which they come in query
+
+Details: 
+
+* Catalyst Optimizer parse the input query and creates an initial plan named as Unresolved Logical Plan,
+
+* In this plan, the actual data source paths, table names, column names, and functions are represented by unresolved objects such as UnresolvedDataSource for data source paths, UnresolvedRelation for table names, and similarly for others.
+
+
+
+Phase 2 - Analysis
+
+Goal: At these phase, catalyst tries to resolve & validate the  Unresolved Logical Plan.
+
+Details: 
+
+* Catalyst Optimizer uses the catalog to resolve & validate the Unresolved Logical Plan.
+
+* Catalog is a metadata manager, that holds registered details like data source paths, table name & schemas (column names and types),
+
+* Catalyst uses Catalog to resolve the unresolved objects and validate the expressions and comparisons.
+
+* After the success of resolve & validate, catalyst generates Resolved Logical Plan where all unresolved objects are replaced with their actual resolved values
+
+* And on failure, catalyst throws an exception named as "AnalysisException".
+
+
+
+Phase 3 - Optimization
+
+Goal: At these phase, catalyst tries to optimize the Resolved Logical plan to improve performance.
+
+Details:
+
+* Most optimizations applied here are rule-based optimizations.
+
+* Rule-based optimizations are fixed set of predefined rules to improve the  query plan, without considering factors like data size, statistics and cost
+
+* Some are 
+
+1. Predicate Pushdown: Moving filter operation closer to data source as possible, so that spark reads and process only relevant data not all data
+
+2, Column Pruning: Selecting only the columns that are required by query to minimize data movement.
+
+* By applying optimizations on Resolved Logical plan, catalyst generates Optimized Logical Plan.
+
+
+
+Phase 4 - Physical Planning
+
+Goal: At these stage, catalyst use Optimized Logical Plan to generate one or more Physical/Execution Plans and uses cost-based optimization (CBO) to pick the one with lowest estimated cost.
+
+At these phase, catalyst tries to generate best Physical Plan from Optimized Logical Plan.
+
+Details:
+
+* Catalyst optimizer takes Optimized Logical Plan, and generate one or more physical plans, using physical operators.
