@@ -28,6 +28,7 @@ I’m learning Azure Data Engineering concepts — thinking about Azure Data Fac
 🚀 **Projects**
 <details>
 <summary><strong>UnifiedSalesReportingPipeline</strong></summary>
+<img width="1345" height="819" alt="UnifiedSalesPipeline" src="https://github.com/user-attachments/assets/e340aafc-6467-4b10-ab26-99464ca0ab9d" />
 
  
 UnifiedSalesReportingPipeline is an end-to-end Azure Data Engineering lakehouse solution that automates ingestion, validation, and consolidation of multi-region sales data into a single analytics-ready source. Built using Azure Data Factory, Databricks, ADLS Gen2, and Delta Lake, it handles schema inconsistencies, enforces data quality with constraints and quarantining, and delivers reliable, ACID-compliant reporting tables optimized for scalable analytics and business-day insights.
