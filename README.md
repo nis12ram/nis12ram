@@ -29,6 +29,7 @@ Designed and implemented an end-to-end Azure lakehouse pipeline to consolidate d
 
 <details>
 <summary><strong>agri-price-arbitrage-adf-pipeline</strong></summary>
+  
 Link: https://github.com/nis12ram/agri-price-arbitrage-adf-pipeline
 
 Built an ADF-driven pipeline to ingest and process daily agricultural commodity price data from external APIs.
