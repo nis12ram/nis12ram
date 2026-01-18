@@ -51,6 +51,7 @@ https://github.com/nis12ram/agri-price-arbitrage-adf-pipeline
 
 <details>
 <summary><strong>ingestionPipelineADF</strong></summary>
+![front](https://github.com/user-attachments/assets/2e439a0e-b692-44b6-a238-e3aa5d6a8130)
 
 clean, optimized and scalable ingestion pipeline in Azure Data Factory(ADF)
 
