@@ -1,29 +1,14 @@
 # Hi there, I'm nishant! 👋
 
-🎓 **Student | Aspiring Data Engineer**
+🎓 **Aspiring Data Engineer**
 
-I’m currently a student focused on becoming a Data Engineer, with hands-on experience in building reliable data workflows and scalable pipelines. I’m especially interested in:
+I’m working toward becoming a Data Engineer, with hands-on experience in building reliable data workflows and scalable pipelines. 
 
-***Designing efficient ETL/ELT pipelines***
+### 🛠️ Technical Stack
+* [cite_start]**Big Data:** Apache Spark, PySpark, Delta Lake[cite: 9].
+* [cite_start]**Cloud Tools:** Azure Data Factory (ADF), Azure Databricks, ADLS Gen2[cite: 9].
+* [cite_start]**Programming:** Python, SQL[cite: 9].
 
-***Scalable data processing with Spark / PySpark***
-
-***Reliable data partitioning, backfills, and incremental processing***
-
-🔬 **What I'm Using**
-
-**Azure Data Factory**: For building and orchestrating data pipelines
-
-**SQL**: Almost everywhere
-
-**Python**: For data transformation task & occasional automation
-
-**PySpark**: For data processing and transformations
-
-
-🌱 **What I'm Focusing**
-
-I’m learning Azure Data Engineering concepts — thinking about Azure Data Factory, Data Lake, Synapse & Databricks for building end-to-end pipelines.
 
 🚀 **Projects**
 <details>
