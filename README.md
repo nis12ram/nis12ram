@@ -5,7 +5,7 @@
 I’m working toward becoming a Data Engineer, with hands-on experience in building reliable data workflows and scalable pipelines. 
 
 ### 🛠️ Technical Stack
-* **Big Data:** Apache Spark, PySpark, Delta Lake.
+* **Big Data:** PySpark, Delta Lake.
 * **Cloud Tools:** Azure Data Factory (ADF), Azure Databricks, ADLS Gen2.
 * **Programming:** Python, SQL.
 
