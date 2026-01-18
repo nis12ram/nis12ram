@@ -13,36 +13,33 @@ I’m working toward becoming a Data Engineer, with hands-on experience in build
 🚀 **Projects**
 <details>
 <summary><strong>UnifiedSalesReportingPipeline</strong></summary>
+
+Link: https://github.com/nis12ram/UnifiedSalesReportingPipeline
+
+Designed and implemented an end-to-end Azure lakehouse pipeline to consolidate daily sales data from multiple regional branches.
+* **Orchestration:** Built modular, fault-tolerant workflows in ADF with centralized logging, retry logic, and restart-from-failure handling.
+* **Transformation:** Developed parameterized notebooks in Databricks for cleaning, normalization, and metadata enrichment.
+* **Governance:** Implemented data quality checks by quarantining invalid records and enforcing NOT NULL/CHECK constraints.
+* **Storage:** Wrote optimized, ACID-compliant Delta Lake tables on ADLS Gen.
+
+
 <img width="1345" height="819" alt="UnifiedSalesPipeline" src="https://github.com/user-attachments/assets/e340aafc-6467-4b10-ab26-99464ca0ab9d" />
-
- 
-UnifiedSalesReportingPipeline is an end-to-end Azure Data Engineering lakehouse solution that automates ingestion, validation, and consolidation of multi-region sales data into a single analytics-ready source. Built using Azure Data Factory, Databricks, ADLS Gen2, and Delta Lake, it handles schema inconsistencies, enforces data quality with constraints and quarantining, and delivers reliable, ACID-compliant reporting tables optimized for scalable analytics and business-day insights.
-
-https://github.com/nis12ram/UnifiedSalesReportingPipeline
 
 </details>
 
 <details>
 <summary><strong>agri-price-arbitrage-adf-pipeline</strong></summary>
+Link: https://github.com/nis12ram/agri-price-arbitrage-adf-pipeline
 
- 
+Built an ADF-driven pipeline to ingest and process daily agricultural commodity price data from external APIs.
+* **Architecture:** Utilized a Medallion (Bronze-Silver-Gold) architecture for structured data processing.
+* **Data Flow:** Cleaned and standardized nested JSON data using ADF Data Flows to ensure consistent schema and quality.
+* **Analytics:** Implemented business logic to identify in-state price arbitrage opportunities for actionable trading insights.
+
 <img width="3194" height="1354" alt="agri_poster1" src="https://github.com/user-attachments/assets/f640b26e-caba-4733-95ea-d13439b49457" />
 
-Azure Data Factory (ADF) pipeline for AgriBridge Commodities Limited to ingest and process daily agricultural price data. The pipeline identifies in-state commodity price arbitrage opportunities (price differences for the same item within the same state) to generate actionable profit insights for the trading team.
-
-https://github.com/nis12ram/agri-price-arbitrage-adf-pipeline
-
 </details>
 
-<details>
-<summary><strong>ingestionPipelineADF</strong></summary>
-![front](https://github.com/user-attachments/assets/d213f3cc-8464-43c5-9838-23f4ba10656d)
-
-clean, optimized and scalable ingestion pipeline in Azure Data Factory(ADF)
-
-https://github.com/nis12ram/ingestionPipelineADF
-
-</details>
 
 ---
 
