@@ -12,7 +12,13 @@ I’m working toward becoming a Data Engineer, with hands-on experience in build
 
 🚀 **Projects**
 <details>
-<summary><strong>UnifiedSalesReportingPipeline</strong></summary>
+<summary>
+  <img src="https://github.com/user-attachments/assets/e340aafc-6467-4b10-ab26-99464ca0ab9d"
+       width="28"
+       height="28"
+       style="vertical-align: middle; margin-right: 8px;" />
+  <strong>UnifiedSalesReportingPipeline</strong>
+</summary>
 
 Link: https://github.com/nis12ram/UnifiedSalesReportingPipeline
 
