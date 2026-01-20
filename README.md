@@ -45,11 +45,9 @@ Built an ADF-driven pipeline to ingest and process daily agricultural commodity 
 
 
 ---
-## 📚 Posts
+📚 **Posts**
+<summary>
+  <a href="https://www.linkedin.com/posts/nishant-choudhary-620292325_apachespark-catalystoptimizer-pyspark-activity-7418509621495033857-ucH4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW0fgBT2zGDRtRxsSDdsT1rqXo-tSW3g8"><strong>🚀 𝐒𝐩𝐚𝐫𝐤'𝐬 𝐐𝐮𝐞𝐫𝐲 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 – 𝐂𝐚𝐭𝐚𝐥𝐲𝐬𝐭 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐞𝐫</strong></a>
+</summary>
 
-|  |  |  |
-|:--:|:--:|:--:|
-| [![Spark Query Planning]([IMAGE_URL_1](https://media.licdn.com/dms/image/v2/D5622AQFt3PbvNaeEZQ/feedshare-shrink_2048_1536/B56ZvPXL.WHcAk-/0/1768710520875?e=1770249600&v=beta&t=seHQmrKXMIjWQv8tW7LqaTNSJ244i3oVzYWBWR680hI))]([POST_URL_1](https://www.linkedin.com/posts/nishant-choudhary-620292325_apachespark-catalystoptimizer-pyspark-activity-7418509621495033857-ucH4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW0fgBT2zGDRtRxsSDdsT1rqXo-tSW3g8)) | [![Catalyst Optimizer](IMAGE_URL_2)](POST_URL_2) | [![Delta Lake Internals](IMAGE_URL_3)](POST_URL_3) |
-| **[Spark Query Planning](POST_URL_1)** | **[Catalyst Optimizer Deep Dive](POST_URL_2)** | **[Delta Lake Internals](POST_URL_3)** |
-| _Execution plans explained_ | _From logical to physical_ | _ACID & storage layers_ |
 *Thanks for visiting my profile! Feel free to connect or check back soon for more updates.*
