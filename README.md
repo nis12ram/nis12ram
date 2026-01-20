@@ -45,47 +45,11 @@ Built an ADF-driven pipeline to ingest and process daily agricultural commodity 
 
 
 ---
+## 📚 Posts
 
-🚀 **Posts**
-<!-- Horizontal scroll container -->
-<div style="overflow-x:auto; padding:12px 0;">
-  <div style="display:flex; gap:12px; align-items:flex-start;">
-
-    <!-- Post card 1 -->
-    <a href="POST_URL_1" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
-      <div style="width:220px; min-width:220px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.08); overflow:hidden; background:#fff; display:flex; flex-direction:column;">
-        <img src="IMAGE_URL_1" alt="Post 1" style="width:100%; height:140px; object-fit:cover; display:block;">
-        <div style="padding:10px;">
-          <div style="font-weight:600; font-size:14px; line-height:1.2; margin-bottom:6px;">Post Title 1</div>
-          <div style="font-size:12px; color:#555;">Short subtitle or site</div>
-        </div>
-      </div>
-    </a>
-
-    <!-- Post card 2 -->
-    <a href="POST_URL_2" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
-      <div style="width:220px; min-width:220px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.08); overflow:hidden; background:#fff; display:flex; flex-direction:column;">
-        <img src="IMAGE_URL_2" alt="Post 2" style="width:100%; height:140px; object-fit:cover; display:block;">
-        <div style="padding:10px;">
-          <div style="font-weight:600; font-size:14px; line-height:1.2; margin-bottom:6px;">Post Title 2</div>
-          <div style="font-size:12px; color:#555;">Short subtitle or site</div>
-        </div>
-      </div>
-    </a>
-
-    <!-- Post card 3 -->
-    <a href="POST_URL_3" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">
-      <div style="width:220px; min-width:220px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.08); overflow:hidden; background:#fff; display:flex; flex-direction:column;">
-        <img src="IMAGE_URL_3" alt="Post 3" style="width:100%; height:140px; object-fit:cover; display:block;">
-        <div style="padding:10px;">
-          <div style="font-weight:600; font-size:14px; line-height:1.2; margin-bottom:6px;">Post Title 3</div>
-          <div style="font-size:12px; color:#555;">Short subtitle or site</div>
-        </div>
-      </div>
-    </a>
-
-    <!-- Add more post cards by copying any of the blocks above -->
-  </div>
-</div>
-
+|  |  |  |
+|:--:|:--:|:--:|
+| [![Spark Query Planning](IMAGE_URL_1)](POST_URL_1) | [![Catalyst Optimizer](IMAGE_URL_2)](POST_URL_2) | [![Delta Lake Internals](IMAGE_URL_3)](POST_URL_3) |
+| **[Spark Query Planning](POST_URL_1)** | **[Catalyst Optimizer Deep Dive](POST_URL_2)** | **[Delta Lake Internals](POST_URL_3)** |
+| _Execution plans explained_ | _From logical to physical_ | _ACID & storage layers_ |
 *Thanks for visiting my profile! Feel free to connect or check back soon for more updates.*
