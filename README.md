@@ -44,10 +44,20 @@ Built an ADF-driven pipeline to ingest and process daily agricultural commodity 
 </details>
 
 
----
 📚 **Posts**
-<summary>
-  <a href="https://www.linkedin.com/posts/nishant-choudhary-620292325_apachespark-catalystoptimizer-pyspark-activity-7418509621495033857-ucH4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW0fgBT2zGDRtRxsSDdsT1rqXo-tSW3g8"><strong>🚀 𝐒𝐩𝐚𝐫𝐤'𝐬 𝐐𝐮𝐞𝐫𝐲 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 – 𝐂𝐚𝐭𝐚𝐥𝐲𝐬𝐭 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐞𝐫</strong></a>
+* <summary>
+  <a href="https://www.linkedin.com/posts/nishant-choudhary-620292325_apachespark-catalystoptimizer-pyspark-activity-7418509621495033857-ucH4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW0fgBT2zGDRtRxsSDdsT1rqXo-tSW3g8"><strong>𝐒𝐩𝐚𝐫𝐤'𝐬 𝐐𝐮𝐞𝐫𝐲 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 – 𝐂𝐚𝐭𝐚𝐥𝐲𝐬𝐭 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐞𝐫</strong></a>
 </summary>
+
+* <summary>
+  <a href="https://www.linkedin.com/posts/nishant-choudhary-620292325_apachespark-catalystoptimizer-pyspark-activity-7418509621495033857-ucH4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW0fgBT2zGDRtRxsSDdsT1rqXo-tSW3g8"><strong>𝐂𝐨𝐧𝐜𝐮𝐫𝐫𝐞𝐧𝐭𝐀𝐩𝐩𝐞𝐧𝐝𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐢𝐧 𝐃𝐞𝐥𝐭𝐚 𝐓𝐚𝐛𝐥𝐞𝐬: 𝐂𝐚𝐮𝐬𝐞𝐬 & 𝐖𝐚𝐲𝐬 𝐭𝐨 𝐑𝐞𝐬𝐨𝐥𝐯𝐞 𝐈𝐭 </strong></a>
+</summary>
+---
+
+* <summary>
+  <a href="https://www.linkedin.com/posts/nishant-choudhary-620292325_apachespark-catalystoptimizer-pyspark-activity-7418509621495033857-ucH4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW0fgBT2zGDRtRxsSDdsT1rqXo-tSW3g8"><strong>𝐂𝐨𝐧𝐜𝐮𝐫𝐫𝐞𝐧𝐭𝐀𝐩𝐩𝐞𝐧𝐝𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐢𝐧 𝐃𝐞𝐥𝐭𝐚 𝐓𝐚𝐛𝐥𝐞𝐬: 𝐂𝐚𝐮𝐬𝐞𝐬 & 𝐖𝐚𝐲𝐬 𝐭𝐨 𝐑𝐞𝐬𝐨𝐥𝐯𝐞 𝐈𝐭 </strong></a>
+</summary>
+---
+
 
 *Thanks for visiting my profile! Feel free to connect or check back soon for more updates.*
