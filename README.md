@@ -10,7 +10,8 @@ I’m working toward becoming a Data Engineer, with hands-on experience in build
 * **Programming:** Python, SQL.
 
 
-🚀 **Projects**
+
+### 🚀 **Projects**
 <details>
 <summary>
   <strong>UnifiedSalesReportingPipeline</strong>
@@ -44,7 +45,8 @@ Built an ADF-driven pipeline to ingest and process daily agricultural commodity 
 </details>
 
 
-📚 **Posts**
+
+### 📚 **Posts**
 * <summary>
   <a href="https://www.linkedin.com/posts/nishant-choudhary-620292325_apachespark-catalystoptimizer-pyspark-activity-7418509621495033857-ucH4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW0fgBT2zGDRtRxsSDdsT1rqXo-tSW3g8"><strong>𝐒𝐩𝐚𝐫𝐤'𝐬 𝐐𝐮𝐞𝐫𝐲 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 – 𝐂𝐚𝐭𝐚𝐥𝐲𝐬𝐭 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐞𝐫</strong></a>
 </summary>
