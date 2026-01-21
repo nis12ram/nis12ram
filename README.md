@@ -17,7 +17,7 @@ I’m working toward becoming a Data Engineer, with hands-on experience in build
   <strong>UnifiedSalesReportingPipeline</strong>
 </summary>
 
-Link: https://github.com/nis12ram/UnifiedSalesReportingPipeline
+[Link](https://github.com/nis12ram/UnifiedSalesReportingPipeline)
 
 Designed and implemented an end-to-end Azure lakehouse pipeline to consolidate daily sales data from multiple regional branches.
 * **Orchestration:** Built modular, fault-tolerant workflows in ADF with centralized logging, retry logic, and restart-from-failure handling.
@@ -33,7 +33,7 @@ Designed and implemented an end-to-end Azure lakehouse pipeline to consolidate d
 <details>
 <summary><strong>agri-price-arbitrage-adf-pipeline</strong></summary>
   
-Link: https://github.com/nis12ram/agri-price-arbitrage-adf-pipeline
+[Link](https://github.com/nis12ram/agri-price-arbitrage-adf-pipeline)
 
 Built an ADF-driven pipeline to ingest and process daily agricultural commodity price data from external APIs.
 * **Architecture:** Utilized a Medallion (Bronze-Silver-Gold) architecture for structured data processing.
@@ -45,8 +45,12 @@ Built an ADF-driven pipeline to ingest and process daily agricultural commodity 
 </details>
 
 
-**I enjoy documenting my Data Engineering learnings in simple, digestible explanations to improve my understanding.
-📚 Posts website: [DEDigest](https://nis12ram.github.io/DEDigest/)**
+
+### 📚 **TECHNICAL LEARNING & KNOWLEDGE SHARING**
+Posts Website: [DEDigest](https://nis12ram.github.io/DEDigest/)
+
+I enjoy documenting my Data Engineering learnings in simple, digestible explanations to improve my understanding.
+
 ---
 
 
