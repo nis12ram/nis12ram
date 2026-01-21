@@ -35,6 +35,7 @@ Designed and implemented an end-to-end Azure lakehouse pipeline to consolidate d
 <summary><strong>agri-price-arbitrage-adf-pipeline</strong></summary>
   
 Built an ADF-driven pipeline to ingest and process daily agricultural commodity price data from external APIs.
+
 * **Architecture:** Utilized a Medallion (Bronze-Silver-Gold) architecture for structured data processing.
 * **Data Flow:** Cleaned and standardized nested JSON data using ADF Data Flows to ensure consistent schema and quality.
 * **Analytics:** Implemented business logic to identify in-state price arbitrage opportunities for actionable trading insights.
@@ -48,9 +49,10 @@ Built an ADF-driven pipeline to ingest and process daily agricultural commodity 
 
 
 ### 📚 **TECHNICAL LEARNING & KNOWLEDGE SHARING**
-Posts Website: [DEDigest](https://nis12ram.github.io/DEDigest/)
 
 I enjoy documenting my Data Engineering learnings in simple, digestible explanations to improve my understanding.
+
+Posts Website: [DEDigest](https://nis12ram.github.io/DEDigest/)
 
 ---
 
