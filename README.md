@@ -46,8 +46,7 @@ Built an ADF-driven pipeline to ingest and process daily agricultural commodity 
 
 
 **I enjoy documenting my Data Engineering learnings in simple, digestible explanations to improve my understanding.
-📚 Posts website: [DEDigest](https://nis12ram.github.io/DEDigest/)
-**
+📚 Posts website: [DEDigest](https://nis12ram.github.io/DEDigest/)**
 ---
 
 
