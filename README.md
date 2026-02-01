@@ -58,7 +58,6 @@ Posts Website: [DEDigest](https://nis12ram.github.io/DEDigest/)
 ### 📜 **Certifications**
 
 Databricks Fundamentals [Link](https://credentials.databricks.com/92eff652-152c-4c27-83d8-ba3a043da6ba#acc.B5c8Gz0f)
-
 Databricks Generative Ai Fundamentals [Link](https://credentials.databricks.com/217ec94f-1980-4da4-bfd1-f83d49cd390c#acc.59BOqyz8)
 
 ---
