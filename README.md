@@ -17,7 +17,7 @@ I’m working toward becoming a Data Engineer, with hands-on experience in build
 ### 🚀 **Projects**
 <details>
 <summary>
-  <strong>UnifiedSalesReportingPipeline</strong>
+  <strong>Multi-Region Sales Data Pipeline (UnifiedSalesReportingPipeline)</strong>
 </summary>
 
 
@@ -35,7 +35,7 @@ Designed and implemented an end-to-end Azure lakehouse pipeline to consolidate d
 </details>
 
 <details>
-<summary><strong>agri-price-arbitrage-adf-pipeline</strong></summary>
+<summary><strong>Agricultural Commodity Price Arbitrage Pipeline (agri-price-arbitrage-adf-pipeline)</strong></summary>
   
 Built an ADF-driven pipeline to ingest and process daily agricultural commodity price data from external APIs.
 
