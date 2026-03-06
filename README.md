@@ -1,8 +1,9 @@
 # Hi there, I'm nishant! 👋
 
-🎓 **Aspiring Data Engineer**
+###🎓 **Aspiring Data Engineer | Databricks • Apache Spark • Azure**
 
-I’m working toward becoming a Data Engineer, with hands-on experience in building reliable data workflows and scalable pipelines. 
+I build scalable data pipelines and lakehouse solutions using **Databricks and PySpark**, with **Azure services** for orchestration and storage.  
+My focus is on **distributed data processing**, **Delta Lake architectures**, and building **reliable, analytics-ready datasets** with strong data quality practices.
 
 ### 🛠️ Technical Stack
 
