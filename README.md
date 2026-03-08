@@ -67,8 +67,8 @@ Posts Website: [DEDigest](https://nis12ram.github.io/DEDigest/)
 </summary>
 
 - Fine-tuned a **4B parameter auto-regressive language model** for **general-purpose Hindi Named Entity Recognition (NER)**.
-- Adapted the base LLM for **downstream NLP tasks** using **supervised fine-tuning**.
-- Achieved **competitive performance on the Hindi-NER benchmark** while maintaining strong general language capabilities.
+- Adapted the base LLM for **downstream NER tasks for Hindi, English and Hinglish** using **custom curated dataset** and **parameter efficient fine-tuning**.
+- Achieved **competitive performance on the Hindi-NER task** while maintaining strong general language capabilities.
 - Demonstrates practical application of **LLM adaptation for low-resource language NLP tasks**.
 
 **Model:** [HindiNER-4B-v1.0](https://huggingface.co/nis12ram/HindiNER-4B-v1.0)
