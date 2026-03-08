@@ -59,6 +59,22 @@ I enjoy documenting my Data Engineering learnings in simple, digestible explanat
 
 Posts Website: [DEDigest](https://nis12ram.github.io/DEDigest/)
 
+### 🤖 LLM Research & Experiments
+
+<details>
+<summary>
+  <strong>HindiNER-4B-v1.0 — Fine-tuned Large Language Model for Hindi Named Entity Recognition</strong>
+</summary>
+
+- Fine-tuned a **4B parameter auto-regressive language model** for **general-purpose Hindi Named Entity Recognition (NER)**.
+- Adapted the base LLM for **downstream NLP tasks** using **supervised fine-tuning**.
+- Achieved **competitive performance on the Hindi-NER benchmark** while maintaining strong general language capabilities.
+- Demonstrates practical application of **LLM adaptation for low-resource language NLP tasks**.
+
+**Model:** [HindiNER-4B-v1.0](https://huggingface.co/nis12ram/HindiNER-4B-v1.0)
+**Post:** [HindiNER-4B-v1.0](https://www.linkedin.com/posts/nishant-choudhary-620292325_ner-hindiner-indicner-activity-7350379087946821634-p0y_/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW0fgBT2zGDRtRxsSDdsT1rqXo-tSW3g8)
+</details>
+
 
 ### 📜 **Certifications**
 
