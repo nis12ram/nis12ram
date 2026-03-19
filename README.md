@@ -23,7 +23,7 @@ My focus is on **distributed data processing**, **Delta Lake architectures**, an
 </summary>
 
 
-Designed and implemented an end-to-end Azure lakehouse pipeline to consolidate daily sales data from multiple regional branches.
+Designed and implemented an end-to-end Azure lakehouse pipeline to consolidate ~12M daily sales records from each regional branch into a unified dataset.
 * **Orchestration:** Built modular, fault-tolerant workflows in ADF with centralized logging, retry logic, and restart-from-failure handling.
 * **Transformation:** Developed parameterized notebooks in Databricks for cleaning, normalization, and metadata enrichment.
 * **Governance:** Implemented data quality checks by quarantining invalid records and enforcing NOT NULL/CHECK constraints.
