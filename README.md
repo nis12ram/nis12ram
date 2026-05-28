@@ -10,7 +10,7 @@ My focus is on **distributed data processing**, **Delta Lake architectures**, an
 
 * **Big Data:** Apache Spark (PySpark), Delta Lake, Unity Catalog  
 * **Cloud Data Tools (Azure):** Azure Databricks, Azure Data Factory (ADF), Azure Data Lake Storage (ADLS Gen2), Azure SQL Server  
-* **Programming:** Python, SQL, Pandas, NumPy, PyTorch  
+* **Programming:** Rust, Python, SQL, Pandas, NumPy, PyTorch  
 * **Additional Knowledge:** Data Modeling, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Generative AI  
 * **Development Tools:** Git, VS Code, Jupyter Notebook, Google Colab  
 
