@@ -1,22 +1,23 @@
 # Hi there, I'm nishant! 👋
+🔭 Currently working on Distributed Systems, Query Engines, and Cloud<br>🌱 Learning Rust<br>
 
-## **Aspiring Data Engineer | Databricks • Apache Spark • Azure**
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](www.linkedin.com/in/nishant-choudhary-620292325) 
 
-I build scalable data pipelines and lakehouse solutions using **Databricks and PySpark**, with **Azure services** for orchestration and storage.  
+### 💻 Tech Stack
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![Apache DataFusion](https://img.shields.io/badge/Apache%20DataFusion-FF6600?style=for-the-badge) ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?style=for-the-badge&logo=delta&logoColor=white) ![Unity Catalog](https://img.shields.io/badge/Unity%20Catalog-FF3621?style=for-the-badge) ![Azure Databricks](https://img.shields.io/badge/Azure%20Databricks-FF3621.svg?style=for-the-badge&logo=databricks&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-My focus is on **distributed data processing**, **Delta Lake architectures**, and building **reliable, analytics-ready datasets** with strong data quality practices.
+## 📊 GitHub Stats
 
-### 🛠️ Technical Stack
-
-* **Big Data:** Apache Spark (PySpark), Delta Lake, Unity Catalog  
-* **Cloud Data Tools (Azure):** Azure Databricks, Azure Data Factory (ADF), Azure Data Lake Storage (ADLS Gen2), Azure SQL Server  
-* **Programming:** Rust, Python, SQL, Pandas, NumPy, PyTorch  
-* **Additional Knowledge:** Data Modeling, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Generative AI  
-* **Development Tools:** Git, VS Code, Jupyter Notebook, Google Colab  
+[![GitHub Streak](https://streak-stats.demolab.com/?user=nis12ram&theme=tokyonight)](https://git.io/streak-stats)
 
 
+## 🏆 GitHub Trophies
 
-### 🚀 **Projects**
+[![trophy](https://github-profile-trophy.vercel.app/?username=nis12ram&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
+
+## 🚀 **Data Engineering Projects**
 <details>
 <summary>
   <strong>Multi-Region Sales Data Pipeline (UnifiedSalesReportingPipeline)</strong>
@@ -53,36 +54,9 @@ Built an ADF-driven pipeline to ingest and process daily agricultural commodity 
 
 
 
-### 📚 **TECHNICAL LEARNING & KNOWLEDGE SHARING**
+## 📚 **TECHNICAL LEARNING & KNOWLEDGE SHARING**
 
 I enjoy documenting my Data Engineering learnings in simple, digestible explanations to improve my understanding.
 
 Posts Website: [DEDigest](https://nis12ram.github.io/DEDigest/)
 
-### 🤖 LLM Research & Experiments
-
-<details>
-<summary>
-  <strong>HindiNER-4B-v1.0 — Fine-tuned Large Language Model for Hindi Named Entity Recognition</strong>
-</summary>
-
-- Fine-tuned a **4B parameter auto-regressive language model** for **general-purpose Hindi Named Entity Recognition (NER)**.
-- Adapted the base LLM for **downstream NER tasks for Hindi, English and Hinglish** using **custom curated dataset** and **parameter efficient fine-tuning**.
-- Achieved **competitive performance on the Hindi-NER task** while maintaining strong general language capabilities.
-- Demonstrates practical application of **LLM adaptation for low-resource language NLP tasks**.
-
-**Model:** [HindiNER-4B-v1.0](https://huggingface.co/nis12ram/HindiNER-4B-v1.0)
-**Post:** [HindiNER-4B-v1.0](https://www.linkedin.com/posts/nishant-choudhary-620292325_ner-hindiner-indicner-activity-7350379087946821634-p0y_/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIW0fgBT2zGDRtRxsSDdsT1rqXo-tSW3g8)
-</details>
-
-
-### 📜 **Certifications**
-
-Databricks Fundamentals [Link](https://credentials.databricks.com/92eff652-152c-4c27-83d8-ba3a043da6ba#acc.B5c8Gz0f)
-
-Databricks Generative Ai Fundamentals [Link](https://credentials.databricks.com/217ec94f-1980-4da4-bfd1-f83d49cd390c#acc.59BOqyz8)
-
----
-
-
-*Thanks for visiting my profile! Feel free to connect or check back soon for more updates.*
