@@ -13,8 +13,9 @@
 
 ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=nis12ram&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
-
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=nis12ram&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8" />
+</p>
 
 ## 🚀 **Data Engineering Projects**
 <details>
