@@ -9,8 +9,7 @@
 
 ## 📊 GitHub Stats
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=nis12ram&theme=tokyonight)](https://git.io/streak-stats)
-
+[![GitHub Streak](https://streak-stats.demolab.com/?user=nis12ram)](https://git.io/streak-stats)
 
 ## 🏆 GitHub Trophies
 
