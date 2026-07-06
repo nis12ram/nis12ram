@@ -17,6 +17,10 @@
   <img src="https://github-trophies.vercel.app/?username=nis12ram&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8" />
 </p>
 
+## 🌱 Open Source
+
+[![sail](https://img.shields.io/badge/lakehq%2Fsail-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lakehq/sail)
+  
 ## 🚀 **Data Engineering Projects**
 <details>
 <summary>
