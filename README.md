@@ -1,5 +1,5 @@
 # Hi there, I'm nishant! 👋
-🔭 Currently working on Distributed Systems, Query Engines, and Cloud<br>🌱 Learning Rust<br>
+🔭 Currently working on **Lakehouse Data Catalog**, Query Engines, and Cloud<br>🌱 Learning Rust<br>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishant-choudhary-620292325)
