@@ -11,11 +11,6 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=nis12ram&theme=tokyonight)](https://git.io/streak-stats)
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-trophies.vercel.app/?username=nis12ram&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8" />
-</p>
 
 ## 🌱 Open Source
 
