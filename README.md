@@ -17,7 +17,7 @@
 [![sail](https://img.shields.io/badge/lakehq%2Fsail-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lakehq/sail/commits/main/?author=nis12ram)
 [![arco](https://img.shields.io/badge/daxis--io%2Farco-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/daxis-io/arco/commits/main/?author=nis12ram)
 
-## 🚀 **Data Engineering Projects**
+## 🚀 **Cloud Data Pipeline Projects**
 <details>
 <summary>
   <strong>Multi-Region Sales Data Pipeline (UnifiedSalesReportingPipeline)</strong>
