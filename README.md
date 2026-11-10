@@ -1,8 +1,8 @@
 # Hi there, I'm nishant! 👋
-🔭 Working on **Hybrid Databases**
+🔭 Working on **Hybrid Database** aimed at:
   - **Real-time analytics**
   - **Fewer systems**
-  - **Greater accessibility**<br>
+  - **Greater accessibility**
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishant-choudhary-620292325)
