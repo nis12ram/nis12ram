@@ -1,5 +1,5 @@
 # Hi there, I'm nishant! 👋
-🔭 Working on **Hybrid Database** aimed at:
+🧩 Working on **Hybrid Database** aimed at:
   - **Real-time analytics**
   - **Fewer systems**
   - **Greater accessibility**
