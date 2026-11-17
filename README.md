@@ -4,6 +4,12 @@
   - **Fewer systems**
   - **Greater accessibility**
 
+## 🌱 Open Source
+
+[![sail](https://img.shields.io/badge/lakehq%2Fsail-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lakehq/sail/commits/main/?author=nis12ram)
+[![arco](https://img.shields.io/badge/daxis--io%2Farco-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/daxis-io/arco/commits/main/?author=nis12ram)
+
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishant-choudhary-620292325)
 
@@ -14,11 +20,6 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=nis12ram&theme=tokyonight)](https://git.io/streak-stats)
 
-
-## 🌱 Open Source
-
-[![sail](https://img.shields.io/badge/lakehq%2Fsail-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lakehq/sail/commits/main/?author=nis12ram)
-[![arco](https://img.shields.io/badge/daxis--io%2Farco-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/daxis-io/arco/commits/main/?author=nis12ram)
 
 ## 🚀 **Cloud Data Pipeline Projects**
 <details>
